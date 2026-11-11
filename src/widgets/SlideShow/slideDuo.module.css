@@ -1,0 +1,184 @@
+.duo {
+  position: absolute;
+  inset: 0;
+}
+
+.title {
+  position: absolute;
+  z-index: 3;
+  top: 52px;
+  left: 352px;
+  width: 536px;
+  height: 96px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #4b4b4b;
+  font-family: 'Euclid Circular A', 'Poppins', 'Montserrat', 'Arial', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 47.93px;
+  line-height: 1.01;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.titleLine {
+  display: block;
+  white-space: nowrap;
+}
+
+.badgeDuo {
+  position: absolute;
+  z-index: 3;
+  top: 180px;
+  left: 539px;
+}
+
+.blurs {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.blurWhite {
+  top: -139px;
+  left: 408px;
+}
+
+.blurPeach {
+  top: 52px;
+  left: 178px;
+}
+
+.blurOrange {
+  top: 286px;
+  left: 671px;
+}
+
+.model {
+  position: absolute;
+  z-index: 1;
+  top: 254px;
+  left: 283px;
+  width: 674px;
+  height: 549px;
+  object-fit: contain;
+}
+
+.devicesRow {
+  position: absolute;
+  z-index: 2;
+  top: 244px;
+  left: 52px;
+  right: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.deviceColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20.14px;
+  width: 242.82px;
+}
+
+.deviceColumnFen {
+  align-items: flex-start;
+}
+
+.deviceColumnStyler {
+  align-items: flex-end;
+}
+
+.badgeFen,
+.badgeStyler {
+  position: static;
+  flex: none;
+}
+
+.deviceFen,
+.deviceStyler {
+  position: static;
+  display: block;
+  width: 100%;
+  height: 431px;
+  border-radius: 32.91px;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .duo {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    overflow: hidden;
+  }
+
+  .blurs {
+    display: none;
+  }
+
+  .title {
+    position: static;
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+  }
+
+  .titleLine {
+    white-space: normal;
+  }
+
+  .badgeDuo {
+    position: static;
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+
+  .model {
+    position: static;
+    width: 100%;
+    height: auto;
+    max-height: 36svh;
+    object-fit: contain;
+  }
+
+  .devicesRow {
+    position: static;
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .deviceColumn {
+    flex: 1;
+    width: auto;
+  }
+
+  .deviceColumnFen,
+  .deviceColumnStyler {
+    align-items: center;
+  }
+
+  .deviceFen,
+  .deviceStyler {
+    width: 100%;
+    height: auto;
+    max-height: 26svh;
+    border-radius: 16px;
+  }
+
+  .badgeFen,
+  .badgeStyler {
+    transform: scale(0.72);
+    transform-origin: center;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex: none;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Euclid Circular A', 'Poppins', 'Montserrat', 'Arial', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-align: center;
+  vertical-align: middle;
+}

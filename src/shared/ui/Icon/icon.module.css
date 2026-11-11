@@ -1,0 +1,28 @@
+.wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  border-radius: 50%;
+  color: #adacac;
+  background: #746d68;
+  box-shadow: 16px 14px 30.7px 0 #625b56;
+  transition:
+    width 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    height 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    color 620ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.active {
+  color: #726965;
+  background: #dbdbdb;
+  box-shadow: 15.89px 13.91px 26.52px 0 #59524c;
+}
+
+.wrap svg {
+  display: block;
+  width: 56%;
+  height: 56%;
+}

@@ -1,0 +1,52 @@
+.badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.shape {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.shape polygon {
+  fill: #4b4b4b;
+}
+
+.textWrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Euclid Circular A', 'Poppins', 'Montserrat', 'Arial', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 21.86px;
+  line-height: 1.13;
+  letter-spacing: -0.01em;
+  text-align: center;
+  vertical-align: middle;
+  transform-origin: center;
+}

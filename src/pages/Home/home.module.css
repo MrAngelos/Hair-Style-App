@@ -1,0 +1,14 @@
+.home {
+  height: 100%;
+  width: 100%;
+}
+
+.desktop {
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+}
